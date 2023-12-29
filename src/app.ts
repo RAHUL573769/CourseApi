@@ -11,7 +11,7 @@ app.use(cors());
 
 app.get('/', (req: Request, res: Response, next: NextFunction) => {
   try {
-    res.status(200).json({ success: true, message: 'Welcome to Courese api' });
+    res.status(200).json({ success: true, message: 'Welcome to Rahul Course Authentication Api' });
   } catch (error) {
     next(error);
   }
